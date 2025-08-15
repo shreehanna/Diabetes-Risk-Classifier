@@ -6,3 +6,4 @@ model = train_and_evaluate_model(df)
 joblib.dump(model, 'diabetes_model.pkl')
 print("✅ Model trained and saved as diabetes_model.pkl")
 
+
